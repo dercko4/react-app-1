@@ -1,0 +1,19 @@
+h2{
+    font-size: 24px;
+    color:  #18A7B5;
+    -webkit-text-stroke: 1vm #649A9E;
+    margin-top: 10px;
+    margin-left: 50px;  
+    max-height: 5px;
+    max-width: 300px;
+}
+
+li{
+    display: list-item;
+    font-size: 18px;
+    margin-top: 0px;
+    padding-top: 15px;
+    margin-left: 75px;
+    height: 10px;
+}
+

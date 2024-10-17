@@ -1,0 +1,25 @@
+h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: 50px;
+    margin-top: 25px;
+    max-width: 300px;
+    max-height: 30px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.divHead{
+    width: 700px;
+    height: 2px;
+    background-color: #99958C;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+

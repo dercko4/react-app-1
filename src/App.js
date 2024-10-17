@@ -1,14 +1,13 @@
 import React from "react";
-import NavBar from "./components/Header"
-import { Card, Container } from "react-bootstrap";
+import NavBar from "./components/Header/Header"
+import MainLeft from "./containers/main/mainLeft";
+
 function App() {
+
   return (
   <>
   <NavBar/>
-    <Container style={{display: "flex", justifyContent: "center", background: "#DCDCDC", width: "500px", height: "680px",
-    border: "1px outset #99958C"}}>
-      Hello
-    </Container>
+  <MainLeft/>
   </>
   )
 }
