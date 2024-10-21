@@ -9,13 +9,13 @@ h1{
     max-height: 30px;
 }
 
-img{
+.imgLeft{
     width: 50px;
     height: 50px;
     margin-right: 10px;
 }
 
-.divHead{
+.divHeadLeft{
     width: 700px;
     height: 2px;
     background-color: #99958C;

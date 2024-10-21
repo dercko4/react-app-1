@@ -1,4 +1,3 @@
-import Navbar from "react-bootstrap/Navbar";
 import { observer } from "mobx-react-lite";
 import "./headerLeft.css"
 const HeaderLeft = observer(({text, picture}) => {
@@ -6,9 +5,9 @@ const HeaderLeft = observer(({text, picture}) => {
     return (
         <>
             <h1>
-                <img src={picture}/>{text}
+                <img src={picture} className="imgLeft"/>{text}
             </h1>
-            <div className="divHead">
+            <div className="divHeadLeft">
             </div>
         </>
     );
