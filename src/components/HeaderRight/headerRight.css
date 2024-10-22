@@ -1,14 +1,17 @@
-h1{
+.h1Right{
     font-size: 30px;
     text-transform: uppercase;
     font-weight: bold;
     float: right;
+    margin-top: 90px;
+    margin-right: 10px;
 }
 
 .imgRight{
     width: 80px;
     height: 120px;
-    margin-right: 10px;
+    margin-right: 5px;
+    float: right;
 }
 
 .divHeadRight{
@@ -16,4 +19,7 @@ h1{
     width: 300px;
     height: 2px;
     background-color: #99958C;
+    margin-top: 125px;
+    margin-left: 540px;
+    position: absolute;
 }

@@ -2,7 +2,6 @@ import { observer } from "mobx-react-lite";
 import "./header2.css"
 
 const Header2 = observer(({text, props}) => {
-    console.log(props)
     return (
         <>
             <h2>

@@ -12,10 +12,11 @@ const MainLeft = observer(() => {
 
     return (
         <>
-            <Container style={{ height: 898, width: 1050, display: "inline-block", backgroundColor: "blue" }}>
+            <Container style={{ height: 898, width: 1050, display: "inline-block" }}>
                 <HeaderLeft text="Опыт работы" picture={Job} />
                 <Header2 text="Фриланс" props={resumeData.freelance} />
                 <Header2 text="Веб-агенство" props={resumeData.web_agent} />
+                <HeaderLeft text/>
             </Container>
         </>
     );
