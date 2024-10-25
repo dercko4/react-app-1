@@ -5,6 +5,7 @@
     float: right;
     margin-top: 90px;
     margin-right: 10px;
+    
 }
 
 .imgRight{
@@ -14,12 +15,14 @@
     float: right;
 }
 
+.imgCont{
+    width: 80px;
+    height: 120px;
+}
+
 .divHeadRight{
     float: right;
-    width: 300px;
-    height: 2px;
+    width: 800px;
+    height: 3px;
     background-color: #99958C;
-    margin-top: 125px;
-    margin-left: 540px;
-    position: absolute;
 }

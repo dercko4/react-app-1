@@ -1,0 +1,22 @@
+.h2Right{
+    font-size: 24px;
+    color:  #18A7B5;
+    -webkit-text-stroke: 1vm #649A9E;
+    margin-top: 10px;
+    margin-left: 50px;  
+    max-height: 5px;
+    max-width: 300px;
+    float: right;
+}
+
+.ulRight{
+    float: right;
+}
+
+.liRight{
+    display: list-item;
+    font-size: 18px;
+    float: right;
+    margin-top: 0%;
+}
+
