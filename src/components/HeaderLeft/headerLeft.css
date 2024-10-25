@@ -5,8 +5,6 @@
     margin-top: 0;
     margin-left: 50px;
     margin-top: 25px;
-    max-width: 300px;
-    max-height: 500px;
 }
 
 .imgLeft{
@@ -20,6 +18,6 @@
     height: 2px;
     background-color: #99958C;
     margin-left: 50px;
-    margin-top: 25px;
+    margin-top: 0px;
 }
 

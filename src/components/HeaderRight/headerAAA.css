@@ -3,21 +3,24 @@
     text-transform: uppercase;
     font-weight: bold;
     float: right;
-    margin-top: 90px;
+    margin-top: 250px;
     margin-right: 10px;
 }
 
-.imgRight{
+.imgAAA{
     width: 80px;
     height: 120px;
     margin-right: 5px;
-    float: right;
 }
 
+.imgCont{
+    width: 80px;
+    height: 120px;
+}
 
 .divHeadRight{
     float: right;
-    width: 800px;
+    width: 700px;
     height: 3px;
     background-color: #99958C;
 }

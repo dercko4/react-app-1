@@ -7,6 +7,7 @@ import Educ from "../../pictures/education.png"
 import Header3 from "../../components/inHeaderLeft/header3";
 import About from "../../pictures/aboutme.png"
 import Skills from "../../pictures/skills.png"
+import Calend from "../../pictures/Calend.png"
 
 const resumeData = {
     freelance: ["Создание сайтов 'с нуля'", "Разработка структуры сайта", "Разработка дизайн-макетов"],
@@ -20,6 +21,8 @@ const MainLeft = observer(() => {
     return (
         <>
             <Container style={{ height: 898, width: 1050, display: "inline-block" }}>
+                <HeaderLeft text="ФИО и дата рождения" picture={Calend}/>
+                <Header3 text="Мухторов Рустам Самариддинович 24 Ноября, 2004 год"/>
                 <HeaderLeft text="Опыт работы" picture={Job} />
                 <Header2 text="Фриланс" props={resumeData.freelance} />
                 <Header2 text="Веб-агенство" props={resumeData.web_agent}/>

@@ -1,11 +1,11 @@
 import { observer } from "mobx-react-lite";
-import "./headerRight.css"
-const HeaderRight = observer(({ text, picture }) => {
+import "./headerAAA.css"
+const HeaderAAA = observer(({ text, picture }) => {
 
     return (
         <>
             <h1 className="h1Right">
-                <img src={picture} className="imgRight" /> {text}
+            <img src={picture} className="imgAAA" /> {text} 
             </h1>
             <div className="divHeadRight">
             </div>
@@ -13,4 +13,4 @@ const HeaderRight = observer(({ text, picture }) => {
     );
 });
 
-export default HeaderRight;
+export default HeaderAAA;

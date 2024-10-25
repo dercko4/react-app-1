@@ -5,7 +5,8 @@ import Header4 from "../../components/inHeaderLeft/header4";
 import Me from "../../pictures/pudge.jpg"
 import Header5 from "../../components/inHeaderLeft/header5";
 import Contacts from "../../pictures/contact.jpg"
-import HeaderLeft from "../../components/HeaderLeft/headerLeft";
+import HeaderAAA from "../../components/HeaderRight/headerAAA";
+
 const resumeData = {
     freelance: ["Создание сайтов 'с нуля'", "Разработка структуры сайта", "Разработка дизайн-макетов"],
     web_agent: ["Создание сайтов 'с нуля'", "Разработка структуры сайта", "Разработка дизайн-макетов", "asdasdasd", "asdasdqwe"],
@@ -19,9 +20,8 @@ const MainRight = observer(() => {
     return (
         <>
             <Container style={{ height: 898, width: 795, display: "inline-block", position: "absolute"}}>
-                <HeaderRight text="Мухторов Рустам Самариддинович" picture={Me} />
-                <Header4 text="Дата рождения: 24.11.2004"/>
-                <HeaderLeft text="контакты" picture={Contacts}/>
+                <img style={{width: "80px", height: "120px", marginRight: "5px", float: "right", marginTop: "10px"}} src={Me}/>
+                <HeaderAAA text="контакты" picture={Contacts}/>
                 <Header5 text="Телефон и почта" props={resumeData.contact}/>
             </Container>
         </>
